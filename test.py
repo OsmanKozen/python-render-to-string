@@ -21,8 +21,8 @@ if __name__ == '__main__':
     import django
     django.setup()
 
-    context = {'deger_ad': 'Osman',
-               'deger_soyad': 'Közen'}
+    context = {'deger_ad': 'Test',
+               'deger_soyad': 'User'}
 
     email_body = render_to_string("index.html", context)
 
